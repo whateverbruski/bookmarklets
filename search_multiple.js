@@ -1,3 +1,4 @@
+// @description  Search multiple engines with a single query
 javascript:(function(){
   if (document.getElementById('searchBoxBookmarklet')) return;
 
@@ -106,5 +107,3 @@ javascript:(function(){
     }
   });
 })();
-
-
