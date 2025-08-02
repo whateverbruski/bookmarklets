@@ -155,5 +155,6 @@ javascript:(async function(){
   document.addEventListener("keydown", keyHandler);
 
   document.body.appendChild(o);
+  btnKeep.focus();
   render();
 })();
