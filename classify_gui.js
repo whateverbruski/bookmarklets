@@ -155,6 +155,32 @@ javascript:(async function(){
   document.addEventListener("keydown", keyHandler);
 
   document.body.appendChild(o);
+  // Make the overlay draggable
+  (function makeDraggable(el) {
+    let offsetX = 0, offsetY = 0, isDragging = false;
+
+    el.addEventListener("mousedown", (e) => {
+      isDragging = true;
+      offsetX = e.clientX - el.getBoundingClientRect().left;
+      offsetY = e.clientY - el.getBoundingClientRect().top;
+      document.body.style.userSelect = "none"; // prevent text selection
+    });
+
+    document.addEventListener("mousemove", (e) => {
+      if (!isDragging) return;
+      const x = e.clientX - offsetX;
+      const y = e.clientY - offsetY;
+      el.style.left = `${x}px`;
+      el.style.top = `${y}px`;
+      el.style.transform = ""; // cancel center transform after move
+    });
+
+    document.addEventListener("mouseup", () => {
+      isDragging = false;
+      document.body.style.userSelect = "";
+    });
+  })(o);
+
   btnKeep.focus();
   render();
 })();
