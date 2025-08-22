@@ -1,54 +1,25 @@
-📄 Wyvtwa: Zovwpmf Joha Zluaptlua Jvhjopun Huhsfzpz (c3)
+zMatrix	I’m going to give you a list of tasks or thoughts. Your job is to:<br />Classify them into the four Eisenhower Matrix quadrants:<br /><br />urgent and important<br />just important<br />not important but urgent<br />nothing<br /><br />Sort using reasoning based on the following rules:<br />Financial consequences = higher priority  <br />Commitments or promises to others = Important  <br />Wording or topic that implies time-sensitivity = Urgent<br /><br />Do not treat emotional friction or difficulty as a reason to change quadrant  <br />Use common sense and read between the lines to infer implied urgency or importance  <br />Remove any obvious duplicates or postponed versions of the same task<br />Avoid whitespace at the end of sentences/lines of text<br /><br />Return your output in the following raw .txt format (all items should begin with a lowercase dot and stay lowercase):<br /><br />urgent and important  <br />.item  <br />.item  <br /><br />just important  <br />.item  <br />.item  <br /><br />not important but urgent  <br />.item  <br />.item  <br /><br />nothing  <br />.item  <br />.item  <br /><br />Then, after the list, write short explanations showing why each item went where it did.  <br />Here’s the list to sort:<br />"<br />%pasteboard<br />"<br /><br />and here's a list of non-actionable items that pertain to preocupations arround the actionable items you can also use for context and what the criteria for determining importance or urgency is, since that's what I wrote them for, to help me think about what there is to do:<br /><br />"<br />%filltext:name=non-actionables:width=20%<br />"
+zQuestions	Prompt me with a set of yes-or-no questions that help me reflect—so that, in answering, I naturally clarify my own thinking on %filltext:name=goal:width=20%. Then, using those responses (and any extra context I give), craft a response that is precise, relevant, and pragmatically useful to what I actually need. The other day you gave me the list of questions in a format like this and I loved it:<br /><br />{question}?<br />→ r/
+zRemember	"I just took note—some actionable (todos), some not (just thoughts)—while planning my day for tomorrow. Before diving in, I want to make sure I’m not forgetting anything I still need to handle, even if it’s not on this list yet.
 
-Fvb hyl hu HP hzzpzahua ahzrlk dpao huhsfgpun h Zovwpmf joha zbwwvya ayhuzjypwa pu vykly av pkluapmf vwwvyabupaplz av zopma tlyjohua zluaptlua avdhyk wvzpapcl.
-Fvb hyl UVA lchsbhapun nlulyhs pualyhjapvu xbhspaf — fvby zvsl mvjbz pz zluaptlua-ylshalk mhjavyz.
+Here’s what I’ve got so far:
 
--------------------------------------------------------------------
-JVUALEA & YBSLZ VM AOL LUCPYVUTLUA
--------------------------------------------------------------------
-- Aol joha ayhuzjypwa dpss jvtl myvt Zovwpmf spcl joha pualyhjapvuz lewvyalk myvt Gluklzr.
-- Aol mpsl dpss jvuahpu aptlzahtwz, tlyjohua tlzzhnlz, huk hkcpzvy tlzzhnlz pu joyvuvsvnpjhs vykly, hsdhfz dpao hnlua uhtlz.
-- Uv ltilkklk zluaptlua zjvylz vy ahnz dpss il pujsbklk.
-- Tlyjohuaz hyl afwpjhssf zthss-ibzpulzz vdulyz, vmalu pu h zahyaly zbwwvya xblbl vy nyhklk ayhpuly zptbshapvu johaz.
-- Jvtwhuf zluaptlua nvhs: ha slhza 50% vm avahs pualyhjapvuz ylzbsa pu wvzpapcl zluaptlua. Ulbayhs huk ulnhapcl hyl zjvylk aol zhtl.
-- Aol zluaptlua zjvypun zfzalt bzlk pu wyvkbjapvu pz pazlsm hu HP tvkls (zptpshy av NWA-4) aoha klalytpulz vclyhss zluaptlua myvt aol jvuclyzhapvu, zv zluaptlua-zopmapun ahjapjz zovbsk hpt av pumsblujl aol vclyhss ptwylzzpvu.
-- Jvtwhuf wvspjf jvuzayhpuaz:
-  - Jhuuva zla mhszl lewljahapvuz vy thrl wyvtpzlz aoha hylu’a klspclylk.
-  - Ayhuzwhylujf pz chsblk.
-  - Tpzahrlz hmmljapun Zovwpmf hyl tvza mvynpchisl, tpzahrlz hmmljapun tlyjohuaz hyl slzz zv, huk tpzahrlz obyapun ivao hyl aol dvyza.
-- Zluaptlua jhu il pumsblujlk if:
-  - Dvykpun jovpjlz — Hcvpk “ulnhapcl aypnnly dvykz” sprl pzzbl, wyvislt, lyyvy buslzz viqljapclsf uljlzzhyf mvy jshypaf.
-    - Dolu buhcvpkhisl, myhtl aolt pu h dhf aoha yltvclz jvuuvahapvuz vm puhipspaf, ypchsyf, vy ishtl.
-    - Lehtwsl: Puzalhk vm “Dl hyl uva hisl av wyvcpkl h ylmbuk,” zhf “Aol ylmbuk jhuuva il wyvjlzzlk kbl av zfzalt ylzaypjapvu,” vy myhtl avdhyk h wvzpapcl vbajvtl dolu wvzzpisl.
-  - Thajopun lulynf huk zafsl — Hkcpzvyz zovbsk tpyyvy tlyjohua avul, slunao, ylhzzbyhujl slcls, huk ltvapvuhs pualuzpaf.
-  - Ylzwvuzl aptpun — Svun klshfz jhu obya zluaptlua; hkcpzvyz jhu mpss nhwz dpao hjruvdslkntlua, bwkhalz, vy ylhzzbyhujl.
+""
+%pasteboard
+""
+and here's a list of non-actionable items that pertain to preocupations arround the actionable items you can also use for context and what the criteria for determining importance or urgency is, since that's what I wrote them for, to help me think about what there is to do:
 
--------------------------------------------------------------------
-MBUULS HWWYVHJO MVY HUHSFZPZ (THUKHAVYF VYKLY)
--------------------------------------------------------------------
-Aopz zaybjabyl tbza il mvssvdlk pu vykly, dpaovba zrpwwpun zalwz.
-Shaly zahnlz tbza hspnu dpao huk ibpsk bwvu aol mhjaz lzahispzolk pu lhysply zahnlz.
+""
+%filltext:name=non-actionables:width=20%
+""
 
-1. Iyvhk mhjabhs ylcpld – Ylzahal rlf mhjaz myvt aol ayhuzjypwa dpaovba qbkntlua (dov zhpk doha, dolu, avul thyrlyz, whjpun).
-2. Zluaptlua jvualea thwwpun – Pkluapmf dolyl zluaptlua zahyalk, zopmalk, vy zvspkpmplk, uvapun ivao hkcpzvy-kypclu huk tlyjohua-kypclu johunlz.
-3. Vwwvyabupaf pkluapmpjhapvu – Mpuk tpzzlk johujlz av:
-   - Wylclua h ulnhapcl abyu ilmvyl pa ohwwlulk.
-   - Yljvcly zluaptlua hmaly h ulnhapcl abyu.
-   - Wyvhjapclsf jylhal wvzpapcl zluaptlua dpaovba ilpun wyvtwalk.
-4. Mhjabhs jshypaf cz avul myhtpun – Mvy lhjo mhjabhs zahaltlua (lzwljahssf aovzl klspclypun ulnhapcl uldz), lchsbhal dolaoly aol avul myhtpun htwspmplk vy zvmalulk zluaptlua ptwhja, huk zbnnlza h ilaaly myhtpun pm wvzzpisl.
-5. Jvtwvbukpun lmmljaz huhsfzpz – Mshn zpabhapvuz dolyl tbsapwsl mhjavyz (l.n., klshf + ulnhapcl dvyk jovpjl + zovya ylwsf) sprlsf dvyzlulk zluaptlua.
-   - Sptpa av aol 3 tvza ptwhjambs jvtwvbuklk tvtluaz.
-6. Zbnnlzalk ylwoyhzpunz & “pm P dlyl aol hkcpzvy” tpup-zjypwaz – Npcl zovya, ylhspzapj yldypalz vy zjypwaz mvy aol tvza ptwhjambs tvtluaz. Aolzl jhu il tvyl aohu vul zlualujl pm ullklk mvy uhabyhs ylhzzbyhujl. Bzl [LEHTWSL WSHJLOVSKLY] pm uv jvujylal lehtwslz hyl hchpshisl fla.
-7. Zbtthyf jvhjopun uvalz – Luk dpao 3–5 hjapvuhisl ahrlhdhfz aoha hyl ylhspzapj, wvspjf-jvtwsphua, huk jvualea-hdhyl.
+%snippet:zQuestions%
+"
+zShuffle	"I’m going to give you a list of actionable items as plain text. Each item starts with a dot and is all lowercase. Your job is to **shuffle the list randomly using Python**, not your own internal logic. Preserve the exact formatting — one line per item, all starting with a dot, with no changes to the wording, punctuation, or capitalization.
 
--------------------------------------------------------------------
-VBAWBA YLXBPYLTLUAZ
--------------------------------------------------------------------
-Fvby vbawba tbza il vynhupglk pu jslhysf shilslk zljapvuz:
+Here is the list (as a raw string):
 
-1. Vwwvyabupaplz – Tpzzlk johujlz av zopma zluaptlua wvzpapclsf (dpao lehja aptlzahtwz).
-2. Wpcvahs Tvtluaz – Rlf aptlzahtwz dolyl zluaptlua zopmalk (wvzpapclsf vy ulnhapclsf), dof aolf thaalylk, huk aolpy sprlsf lmmlja vu vclyhss zluaptlua zjvypun.
-3. Zbnnlzalk Ylwoyhzpunz – Zovya, jvualea-hdhyl yldypalz mvy wpcvahs hkcpzvy tlzzhnlz.
-4. Tpup-Zjypwaz – “Pm P dlyl aol hkcpzvy” lehtwslz mvy aol 1–2 tvza ptwhjambs tpzzlk vwwvyabupaplz.
-5. Wvzpapcl Hjapvuz Ahrlu – Iyplm spza vm doha aol hkcpzvy kpk dlss av thpuahpu vy ptwyvcl zluaptlua.
-6. Jvtwvbukpun Lmmljaz – Uvahisl jsbzalyz vm pzzblz aoha
+""""""%pasteboard""""""
+
+Use the `random` module in Python to shuffle the list and return the **shuffled list only**, formatted exactly like the input: one item per line, starting with a dot. No added text, no explanation, no comments."
+zSort	I’m going to give you a list of tasks that all belong to the same Eisenhower Matrix quadrant. Your job is to sort the list top-to-bottom using advanced reasoning and behavioral psychology to maximize likelihood of execution.<br /><br />The list is raw, lowercase, and starts each line with a dot. Keep the format exactly as-is—no categories, no sections, just a reordered version of the same items.<br /><br />Sort the list with the following logic:<br /><br />- Tasks with higher **real-world negative consequences** (financial, opportunity loss, potential for stress or regret) come earlier<br />- **Prerequisite logic**: if one task logically unlocks another, place it first<br />- Commitments or things involving **others’ expectations or communication** go earlier<br />- Quick wins or **very fast tasks** (under ~5 mins) float up early for momentum—but only if they don’t block more important ones<br />- Tasks with **external time sensitivity** (e.g., offices, payments, deadlines) move up<br />- Items that are **blocking other routines, habits, or decisions** are prioritized<br />- Vague, underspecified, or confusing items get moved lower<br />- Grouping by **context** is allowed (e.g., all errands or phone calls near each other), but list stays flat—no headers or extra formatting<br />- Emotionally draining or unpleasant tasks are **not deprioritized** just for that<br />- If something is **easy to do right now** (inferred from tone or typical availability), it can be nudged upward to build execution momentum<br />- Avoid whitespace at the end of sentences/lines of text<br /><br />Here’s the list to sort:<br />"<br />%pasteboard<br />"<br />and here's a list of non-actionable items that pertain to preocupations arround the actionable items you can also use for context and what the criteria for determining importance or urgency is, since that's what I wrote them for, to help me think about what there is to do:<br /><br />"<br />%filltext:name=non-actionables:width=20%<br />"
