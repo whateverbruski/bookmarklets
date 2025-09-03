@@ -1,25 +1,31 @@
-zMatrix	I’m going to give you a list of tasks or thoughts. Your job is to:<br />Classify them into the four Eisenhower Matrix quadrants:<br /><br />urgent and important<br />just important<br />not important but urgent<br />nothing<br /><br />Sort using reasoning based on the following rules:<br />Financial consequences = higher priority  <br />Commitments or promises to others = Important  <br />Wording or topic that implies time-sensitivity = Urgent<br /><br />Do not treat emotional friction or difficulty as a reason to change quadrant  <br />Use common sense and read between the lines to infer implied urgency or importance  <br />Remove any obvious duplicates or postponed versions of the same task<br />Avoid whitespace at the end of sentences/lines of text<br /><br />Return your output in the following raw .txt format (all items should begin with a lowercase dot and stay lowercase):<br /><br />urgent and important  <br />.item  <br />.item  <br /><br />just important  <br />.item  <br />.item  <br /><br />not important but urgent  <br />.item  <br />.item  <br /><br />nothing  <br />.item  <br />.item  <br /><br />Then, after the list, write short explanations showing why each item went where it did.  <br />Here’s the list to sort:<br />"<br />%pasteboard<br />"<br /><br />and here's a list of non-actionable items that pertain to preocupations arround the actionable items you can also use for context and what the criteria for determining importance or urgency is, since that's what I wrote them for, to help me think about what there is to do:<br /><br />"<br />%filltext:name=non-actionables:width=20%<br />"
-zQuestions	Prompt me with a set of yes-or-no questions that help me reflect—so that, in answering, I naturally clarify my own thinking on %filltext:name=goal:width=20%. Then, using those responses (and any extra context I give), craft a response that is precise, relevant, and pragmatically useful to what I actually need. The other day you gave me the list of questions in a format like this and I loved it:<br /><br />{question}?<br />→ r/
-zRemember	"I just took note—some actionable (todos), some not (just thoughts)—while planning my day for tomorrow. Before diving in, I want to make sure I’m not forgetting anything I still need to handle, even if it’s not on this list yet.
-
-Here’s what I’ve got so far:
-
-""
-%pasteboard
-""
-and here's a list of non-actionable items that pertain to preocupations arround the actionable items you can also use for context and what the criteria for determining importance or urgency is, since that's what I wrote them for, to help me think about what there is to do:
-
-""
-%filltext:name=non-actionables:width=20%
-""
-
-%snippet:zQuestions%
-"
-zShuffle	"I’m going to give you a list of actionable items as plain text. Each item starts with a dot and is all lowercase. Your job is to **shuffle the list randomly using Python**, not your own internal logic. Preserve the exact formatting — one line per item, all starting with a dot, with no changes to the wording, punctuation, or capitalization.
-
-Here is the list (as a raw string):
-
-""""""%pasteboard""""""
-
-Use the `random` module in Python to shuffle the list and return the **shuffled list only**, formatted exactly like the input: one item per line, starting with a dot. No added text, no explanation, no comments."
-zSort	I’m going to give you a list of tasks that all belong to the same Eisenhower Matrix quadrant. Your job is to sort the list top-to-bottom using advanced reasoning and behavioral psychology to maximize likelihood of execution.<br /><br />The list is raw, lowercase, and starts each line with a dot. Keep the format exactly as-is—no categories, no sections, just a reordered version of the same items.<br /><br />Sort the list with the following logic:<br /><br />- Tasks with higher **real-world negative consequences** (financial, opportunity loss, potential for stress or regret) come earlier<br />- **Prerequisite logic**: if one task logically unlocks another, place it first<br />- Commitments or things involving **others’ expectations or communication** go earlier<br />- Quick wins or **very fast tasks** (under ~5 mins) float up early for momentum—but only if they don’t block more important ones<br />- Tasks with **external time sensitivity** (e.g., offices, payments, deadlines) move up<br />- Items that are **blocking other routines, habits, or decisions** are prioritized<br />- Vague, underspecified, or confusing items get moved lower<br />- Grouping by **context** is allowed (e.g., all errands or phone calls near each other), but list stays flat—no headers or extra formatting<br />- Emotionally draining or unpleasant tasks are **not deprioritized** just for that<br />- If something is **easy to do right now** (inferred from tone or typical availability), it can be nudged upward to build execution momentum<br />- Avoid whitespace at the end of sentences/lines of text<br /><br />Here’s the list to sort:<br />"<br />%pasteboard<br />"<br />and here's a list of non-actionable items that pertain to preocupations arround the actionable items you can also use for context and what the criteria for determining importance or urgency is, since that's what I wrote them for, to help me think about what there is to do:<br /><br />"<br />%filltext:name=non-actionables:width=20%<br />"
+Script	First on	Principle	Product
+If you ever need to reference this conversation, the transcript and ticket ID will show my name and everything we did for reference if anybody ever tells you otherwise	Next Steps	Pre-suation, Authority, Reciprocity, Commitment/consistency	Outcome
+I know merchants who refer to previous interactions find it hepful to speed up future support and avoid repeating themselves	Next Steps	Pre-suation, Scarcity, Social Proof	Outcome
+That transcript also has the ticket ID, not everybody keeps that handy, and it’s great if you ever need to reference it	Next Steps	Pre-suation, Scarcity	Outcome
+I’ll send it now right after we finish our interaction today so it’s fresh in your inbox, and it is easier to check while we're still on the topic	Next Steps	Pre-suation, Scarcity	Outcome
+Glad we’ve been teamed up on this today so I can take a look into it for you	Acknowledge	Liking	Persona
+I actually just handled a similar case earlier, I know what to take a look at first for you, bare with me	Reassure	Authority, Scarcity, Reciprocity, Commit/Consist	Persona
+I did see the conversation you had with the bot prior above	Acknowledge	Authority, Scarcity	Persona
+Let me check your previous interactions with us so I save you on some time and repeated steps	Reassure	Reciprocity, Liking, Authority, Scarcity	Persona
+I don't usally do this but can make an expection for you: I'll keep your case on my individual logs and be sure to keep an eye on it for you looking forward okay?	Gameplan	Reciprocity, Liking, Scarcity	Persona
+No worries at all, glad I could help with everything		Reciprocity	
+Happy to do it.			
+Sound good?			
+I don't see a name in our system btw, how can I best address you during our interaction today?		Liking, Commitment/Consistency, Unity, Scarcity	
+That's the right question to ask	Gameplan	Authority, Liking, Unity	
+I really like collaborating with you, it does feel like teamwork		Unity, Liking, Commitment/Consistency	
+It does look like you've contacted us prior on this, mind if i take a little peak for you so I save you on some time and redundancy?	Context Gather	Authority, Reciprocity, Liking	
+I often see cases like this and I know how to proceed	Reassurance	Authority	
+I know the process like the back of my hand	Reassurance	Authority, Liking	
+You might want to give it a look while it is top of mind after our interaction today. Before it gets buried down your inbox	Gameplan	Scarcity	
+Remember to make use of your transcript and ticket id tools, all succesful merchants I interact with do reference previous interactions. It helps expedite cases	Gameplan	Social Proof	
+You might want to give it a look while it is top of mind after our interaction today. Before it gets buried down in your inbox	Gameplan	Scarcity	
+I don't ever really do this but I'd like to keep your case on my individual log so I can keep an eye for any updates looking forward for you okay?	Next steps	Reciprocity	
+A great tool I like to remind merchants about is the interaction transcript and id number you'll receive at the end of our interaction today which you can have for reference of what we did in case anybody ever tells you otherwise okay?	Gameplan	Pre-suasion, Authority, Reciprocity, Liking, Unity	
+I wish everybody were so quick, responsiveness is hard to come by	Context Gather	Liking, Authority, Pre-suasion, Commitment/consistency	
+I wish everybody were so detailed, thoroughness is so hard to come by	Context Gather	Liking, Authority, Pre-suasion, Commitment/consistency	
+Let me cross compare your information on my end with our most up to date resources for you real quick	Gameplan	Authority, Liking, Reciprocity	
+Oh no worries, that's what I do		Reciprocity	
+Don't mention it! I'm glad I was able to help with all of it and provide that much clarity			
+It's okay, I got you			
+No worries, I got your back			
